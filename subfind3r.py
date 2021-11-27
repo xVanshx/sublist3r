@@ -19,7 +19,7 @@ def banner():
   print("╰━━━┻━━┻━━┻╯╱╱╰┻╯╰┻━━┻━━━┻╯")
   print("\nVersion 1.0")
   print("Copyright: Vansh Saxena")
-  print("github.com")
+  print("https://github.com/xVanshx/sublist3")
 
 banner()
 
