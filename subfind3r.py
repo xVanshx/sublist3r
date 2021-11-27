@@ -18,7 +18,7 @@ def banner():
   print("┃╰━╯┃╰╯┃╰╯┃┃╱╱┃┃┃┃┃╰╯┃╰━╯┃┃")
   print("╰━━━┻━━┻━━┻╯╱╱╰┻╯╰┻━━┻━━━┻╯")
   print("\nVersion 1.0")
-  print("Copyright: Vansh Saxena")
+  print("Copyright: xVanshx")
   print("https://github.com/xVanshx/sublist3")
 
 banner()
