@@ -11,15 +11,15 @@ content = file.read()
 subdomains = content.splitlines()
 
 def banner():
-  print("╭━━━╮╱╱╭╮╱╭━━━╮╱╱╱╱╱╭┳━━━╮")
-  print("┃╭━╮┃╱╱┃┃╱┃╭━━╯╱╱╱╱╱┃┃╭━╮┃")
-  print("┃╰━━┳╮╭┫╰━┫╰━━┳┳━╮╭━╯┣╯╭╯┣━╮")
-  print("╰━━╮┃┃┃┃╭╮┃╭━━╋┫╭╮┫╭╮┣╮╰╮┃╭╯")
-  print("┃╰━╯┃╰╯┃╰╯┃┃╱╱┃┃┃┃┃╰╯┃╰━╯┃┃")
-  print("╰━━━┻━━┻━━┻╯╱╱╰┻╯╰┻━━┻━━━┻╯")
-  print("\nVersion 1.0")
-  print("Copyright: xVanshx")
-  print("https://github.com/xVanshx/sublist3")
+  print("\u001b[33m╭━━━╮╱╱╭╮╱╭━━━╮╱╱╱╱╱╭┳━━━╮")
+  print("\u001b[33m┃╭━╮┃╱╱┃┃╱┃╭━━╯╱╱╱╱╱┃┃╭━╮┃")
+  print("\u001b[33m┃╰━━┳╮╭┫╰━┫╰━━┳┳━╮╭━╯┣╯╭╯┣━╮")
+  print("\u001b[33m╰━━╮┃┃┃┃╭╮┃╭━━╋┫╭╮┫╭╮┣╮╰╮┃╭╯")
+  print("\u001b[33m┃╰━╯┃╰╯┃╰╯┃┃╱╱┃┃┃┃┃╰╯┃╰━╯┃┃")
+  print("\u001b[33m╰━━━┻━━┻━━┻╯╱╱╰┻╯╰┻━━┻━━━┻╯")
+  print("\u001b[33m\nVersion 1.0")
+  print("\u001b[33mCopyright: xVanshx")
+  print("\u001b[33mhttps://github.com/xVanshx/sublist3r")
 
 banner()
 
@@ -28,8 +28,8 @@ for subdomain in subdomains:
 	url2 = f"https://{subdomain}.{domain}"
 	try:
 		requests.get(url1)
-		print(f"[+]Discovered URL: {url1}")
+		print(f"\u001b[32m[+]Discovered URL: {url1}")
 		requests.get(url2)
-		print(f"[+]Discovered URL: {url2}")
+		print(f"\u001b[32m[+]Discovered URL: {url2}")
 	except requests.ConnectionError:
 		pass
